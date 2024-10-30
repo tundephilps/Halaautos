@@ -4,7 +4,8 @@ import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/Logo.jpeg";
+import Link from "next/link";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [menuOne, setMenuOne] = useState(false);
@@ -15,13 +16,21 @@ const Header = () => {
   return (
     <section>
       <nav className="font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0 text-sm font-semibold">
-        <div className="flex flex-col px-6 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-0 xl:px-20">
-          <Image src={Logo} className="h-18 w-44" />
+        <div className="flex flex-col px-6 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-2 xl:px-20">
+          <Link href="/">
+            <Image src={Logo} className="h-12 w-44" />
+          </Link>
           <div
             className={`mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0 ${
               isOpen ? "" : "hidden"
             }`}
           >
+            <a
+              href="#"
+              className="font-inter rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-gray-800"
+            >
+              Toyota & Lexus
+            </a>
             <div className="relative flex flex-col">
               <button
                 onClick={() => setMenuOne(!menuOne)}
@@ -31,7 +40,7 @@ const Header = () => {
                     : "text-black lg:border lg:border-white"
                 }`}
               >
-                My Toyota
+                Owners
                 <MdOutlineKeyboardArrowDown
                   className={`w-4 h-4 fill-current transition-transform duration-300 ${
                     menuOne ? "rotate-180" : "rotate-0"
@@ -68,11 +77,14 @@ const Header = () => {
                 />
               </button>
               {menuOne2 && (
-                <div className="z-50 flex w-full flex-col rounded-lg lg:absolute lg:top-20 lg:w-96 bg-white">
+                <div className="z-50 flex w-full flex-col rounded-lg lg:absolute lg:top-12 lg:w-96 bg-white cursor-pointer">
                   {/* ITEM */}
-                  <p className="py-3 border-t-red-400 border-t-2 px-5">
+                  <Link
+                    href="/OrderOnline"
+                    className="py-3 border-t-red-400 border-t-2 px-5 cursor-pointer"
+                  >
                     Order Online
-                  </p>
+                  </Link>
 
                   <p className="py-3 border-t px-5">E-Fleet</p>
                 </div>

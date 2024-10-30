@@ -1,15 +1,12 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/Logo.jpeg";
 import {
   FaFacebook,
   FaInstagram,
-  FaLocationPin,
-  FaX,
   FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";
-import { FaMailBulk } from "react-icons/fa";
 import { CiLocationOn, CiMail } from "react-icons/ci";
 
 const Footer = () => {
