@@ -27,7 +27,7 @@ const OrderOnline = () => {
         />
       </div>
 
-      <div className="p-12 text-gray-800">
+      <div className="lg:p-12 p-4 text-gray-800">
         <h1 className="text-2xl font-bold text-center text-black">
           Enjoy the experience of buying new car online and get it to the door
           of your home for free.
@@ -113,7 +113,6 @@ const OrderOnline = () => {
         <Accordion2 />
         <Accordion3 />
         <Accordion4 />
-
         <Accordion5 />
       </div>
     </div>
