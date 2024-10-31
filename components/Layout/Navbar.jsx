@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 import { CiGlobe } from "react-icons/ci";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import Link from "next/link";
 const Navbar = () => {
   const [language, setLanguage] = useState("English");
   const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +62,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex items-center lg:gap-6 gap-2 ">
-          <p>Book a Service</p>
+          <Link href="/BookService">Book a Service</Link>
           <div className=" bg-gray-500 h-4 w-[0.2px]" />
           <p className="">Book a Car</p>
         </div>

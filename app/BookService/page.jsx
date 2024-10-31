@@ -1,14 +1,11 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Lease from "../../../public/lease.png";
-import Cash from "../../../public/cash.png";
-import { FaAngleRight } from "react-icons/fa6";
-import Cap from "../../../public/cap.png";
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
-import { MdKeyboardArrowUp, MdKeyboardArrowDown } from "react-icons/md";
+import Cap from "../../public/cap.png";
 
-const OrderForm = () => {
+const page = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [isOpen2, setIsOpen2] = useState(false);
@@ -55,106 +52,22 @@ const OrderForm = () => {
 
   return (
     <div className="py-12">
-      <p className="text-center text-4xl font-bold">ORDER ONLINE</p>
-      <p className="text-center lg:px-32 px-12">
-        Fill out this quick form to start the purchase process, and a customer
-        service agent will get back to you within 48 hours. By filling out this
-        form you are under no oblligation to purchase a vehicle from Toyota
-      </p>
-      <p className="py-6 text-center font-semibold italic">
-        Please tell us how would you like to finance this purchase
-      </p>
-      <form class="px-12 w-full">
-        <div className="flex items-center justify-center gap-8 mx-auto">
-          <div className="group flex flex-col items-center p-6 bg-white rounded-lg shadow-sm hover:shadow-2xl shadow-black transition-shadow duration-300">
-            <div className="w-16 h-16 flex items-center justify-center rounded-full bg-red-50 group-hover:bg-red-100 transition-colors duration-300">
-              <div className="text-red-600">
-                <Image src={Cash} />
-              </div>
-            </div>
-            <div className="inline-flex mt-4 gap-4 items-center">
-              <div className=" text-red-600">
-                <FaAngleRight />
-              </div>
-              <h2 className=" font-semibold text-sm text-gray-900 text-center">
-                Cash
-              </h2>
-            </div>
-          </div>
-          <div className="group flex flex-col items-center p-6 bg-white rounded-lg shadow-sm hover:shadow-2xl shadow-black transition-shadow duration-300">
-            <div className="w-16 h-16 flex items-center justify-center rounded-full bg-red-50 group-hover:bg-red-100 transition-colors duration-300">
-              <div className="text-red-600">
-                <Image src={Lease} />
-              </div>
-            </div>
-            <div className="inline-flex mt-4 gap-4 items-center">
-              <div className=" text-red-600">
-                <FaAngleRight />
-              </div>
-              <h2 className=" font-semibold text-sm text-gray-900 text-center">
-                Lease
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <p className="text-center font-light py-4">
-          Buy your car outright with a <span className="font-bold"> Cash </span>
-          purchase
+      <div className="lg:p-12  p-4 ">
+        <p className="font-bold  text-4xl">Book A Service</p>
+        <p className="my-8">
+          Booking an appointment at our award winning service centers could be
+          easier. Simply fill out the appointment form and we will be in touch
+          within 48hours to arrange a time and day for you to have your car
+          looked at.
+          <br />
+          <br />
+          The form should take less than 5 minutes to complete. But you can try
+          our new service app which will provide more vivid experience and
+          information about your service.{" "}
         </p>
+      </div>
 
-        <div>
-          <p className="font-bold py-8">Vehicle Information</p>
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
-            <div>
-              {" "}
-              <label
-                for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
-              >
-                Vehicle
-              </label>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              >
-                <option>Camry 2025</option>
-                <option>Coaster 2024</option>
-                <option>Corolla 2024</option>
-                <option>Corolla Cross 2024</option>
-                <option>Crown 2024</option>
-                <option>Fortuner 2024</option>
-                <option>GR86 2024</option>
-
-                <option>Hiacebus 2025</option>
-                <option>Hiacevan 2025</option>
-                <option>Highlander 2024</option>
-                <option>HiluxDC 2024</option>
-                <option>HiluxSC 2025</option>
-                <option>Innova 2024</option>
-                <option>LC300 2024</option>
-              </select>
-            </div>
-
-            <div>
-              {" "}
-              <label
-                for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
-              >
-                Grade
-              </label>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              >
-                <option>GLE HEV</option>
-                <option>LIMITED HEV 4x4</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
+      <form class="px-12 w-full">
         <div>
           <p className="font-bold py-8">Contact Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
@@ -214,15 +127,141 @@ const OrderForm = () => {
                 required
               />
             </div>
-            <div class="">
-              <label class="block mb-2 text-sm font-medium text-gray-900 ">
-                Tell us your closet city
+          </div>
+        </div>
+
+        <div>
+          <p className="font-bold py-8">Vehicle Information</p>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+            <div>
+              {" "}
+              <label
+                for="countries"
+                class="block mb-2 text-sm font-medium text-gray-900"
+              >
+                Model Year
               </label>
-              <input
-                type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="City Name"
-                required
+              <select
+                id="countries"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              >
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option>
+                <option>2012</option>
+                <option>2013</option>
+              </select>
+            </div>
+
+            <div>
+              {" "}
+              <label
+                for="countries"
+                class="block mb-2 text-sm font-medium text-gray-900"
+              >
+                Model
+              </label>
+              <select
+                id="countries"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              >
+                <option>GLE HEV</option>
+                <option>LIMITED HEV 4x4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p className="font-bold py-8">
+            Choose a city and center for your service
+          </p>
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
+            <div>
+              {" "}
+              <label
+                for="countries"
+                class="block mb-2 text-sm font-medium text-gray-900"
+              >
+                City
+              </label>
+              <select
+                id="countries"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              >
+                <option>Al Hafuf</option>
+                <option>Jeddah</option>
+                <option>Riyadh</option>
+                <option>Al Madinah Al Munawwarah</option>
+                <option>Burydah</option>
+                <option>Unayzah</option>
+                <option>Al Jubail</option>
+                <option>Yanbu</option>
+                <option>Al khafji</option>
+                <option>Arar</option>
+                <option>At Taif</option>
+                <option>Al khubar</option>
+                <option>Al Wajh</option>
+                <option>Baha</option>
+              </select>
+            </div>
+
+            <div>
+              {" "}
+              <label
+                for="countries"
+                class="block mb-2 text-sm font-medium text-gray-900"
+              >
+                Center
+              </label>
+              <select
+                id="countries"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              >
+                <option>GLE HEV</option>
+                <option>LIMITED HEV 4x4</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p className="font-bold py-8">Appointment Information</p>
+          <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
+            <div className="border flex flex-row justify-between items-center p-4">
+              <p>Other Services</p>
+              <input type="radio" />
+            </div>
+            <div className="border flex flex-row justify-between items-center p-4">
+              <p>Periodic Maintenance</p>
+              <input type="radio" />
+            </div>
+
+            <div>
+              <label className="block mb-2  font-bold text-black ">
+                What is your prefered date for your service?
+              </label>
+              <div className="border flex flex-row justify-between items-center p-4">
+                <input type="date" className="border-none outline-none" />
+              </div>
+            </div>
+            <div></div>
+            <div>
+              <label className="block mb-2  font-bold text-black ">
+                Please add any extra information about your appointment request
+              </label>
+              <textarea
+                className="border h-40 w-full p-4"
+                placeholder="Enter message (maximum 300 characters"
               />
             </div>
           </div>
@@ -409,4 +448,4 @@ const OrderForm = () => {
   );
 };
 
-export default OrderForm;
+export default page;

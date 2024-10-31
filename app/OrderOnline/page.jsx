@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import order from "../../public/order.jpg";
@@ -8,13 +9,13 @@ import Accordion4 from "../../components/OrderOnline/Accordion4";
 import Accordion5 from "../../components/OrderOnline/Accordion5";
 import Link from "next/link";
 
-const page = () => {
+const OrderOnline = () => {
   return (
     <div className="relative ">
       <Image src={order} className="w-full h-[70vh]" />
 
       <div className="h-1 w-44 bg-red-500 my-24 mx-auto" />
-      <div className="py-12 p-20">
+      <div className="py-12 lg:p-20 p-4">
         <iframe
           className="  left-0 w-full h-[500px]"
           src={`https://www.youtube.com/embed/M-6--Uu-5DQ?si=oLZtSiHy4gd47hJk`}
@@ -119,4 +120,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default OrderOnline;
