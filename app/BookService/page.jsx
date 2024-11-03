@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
 
 import Cap from "../../public/cap.png";
 
-const page = () => {
+const BookService = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const [isOpen2, setIsOpen2] = useState(false);
@@ -55,19 +55,19 @@ const page = () => {
       <div className="lg:p-12  p-4 ">
         <p className="font-bold  text-4xl">Book A Service</p>
         <p className="my-8">
-          Booking an appointment at our award winning service centers could be
-          easier. Simply fill out the appointment form and we will be in touch
-          within 48hours to arrange a time and day for you to have your car
-          looked at.
+          Booking an appointment at our award winning service centers could not
+          be easier. Simply fill out the appointment form and we will be in
+          touch within 48 hours to arrange a time and day for you to have your
+          car looked at.
           <br />
           <br />
           The form should take less than 5 minutes to complete. But you can try
           our new service app which will provide more vivid experience and
-          information about your service.{" "}
+          information about your service.
         </p>
       </div>
 
-      <form class="px-12 w-full">
+      <div class="px-12 w-full">
         <div>
           <p className="font-bold py-8">Contact Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
@@ -443,9 +443,9 @@ const page = () => {
             promotional offers, announcements and other marketing messages.
           </p>
         </div>
-      </form>
+      </div>
     </div>
   );
 };
 
-export default page;
+export default BookService;

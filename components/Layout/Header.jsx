@@ -50,13 +50,23 @@ const Header = () => {
               {menuOne && (
                 <div className="z-50 flex w-full flex-col rounded-lg lg:absolute lg:top-20 lg:w-96 bg-white">
                   {/* ITEM */}
-                  <p className="py-3 border-t-red-400 border-t-2 px-5">
+                  <Link
+                    href="/DashboardIndicator"
+                    className="py-3 border-t-red-400 border-t-2 px-5"
+                  >
                     Dashboard Indicator
-                  </p>
+                  </Link>
 
-                  <p className="py-3 border-t px-5">Periodic Maintenance</p>
+                  <Link
+                    href="/PeriodicMaintenance"
+                    className="py-3 border-t px-5"
+                  >
+                    Periodic Maintenance
+                  </Link>
 
-                  <p className="py-3 border-t px-5">Warranty</p>
+                  <Link href="/Warranty" className="py-3 border-t px-5">
+                    Warranty
+                  </Link>
                 </div>
               )}
             </div>
