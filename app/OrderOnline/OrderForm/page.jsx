@@ -139,6 +139,7 @@ const OrderForm = () => {
             </div>
           </div>
         </div>
+
         {/* Contact Information */}
         <div>
           <p className="font-bold py-8">Contact Information</p>
@@ -211,6 +212,16 @@ const OrderForm = () => {
               />
             </div>
           </div>
+        </div>
+
+        <div className="py-8">
+          <label className="block mb-2  font-bold text-black ">
+            Please add any extra information about your Purchase request
+          </label>
+          <textarea
+            className="border h-40 w-full p-4"
+            placeholder="Enter message (maximum 300 characters"
+          />
         </div>
         {/* Terms and Condition */}
         <div class="flex items-start py-5">

@@ -249,6 +249,8 @@ const BookService = () => {
             </div>
           </div>
         </div>
+
+        {/* Appointment information */}
         <div>
           <p className="font-bold py-8">Appointment Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
@@ -339,6 +341,8 @@ const BookService = () => {
             )}
           </div>
         </div>
+
+        {/* Socials */}
         <div className="py-12 rounded-lg">
           <div className="p-4 border-t">
             <p className="text-gray-800 mb-4">
