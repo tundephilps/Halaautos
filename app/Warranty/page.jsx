@@ -8,7 +8,7 @@ const Warranty = () => {
   return (
     <div>
       <p className="text-center  font-bold py-12 text-3xl">WARRANTY</p>
-      <Image src={Warrantypix} className="w-full h-[70vh]" />
+      <Image src={Warrantypix} className="w-full h-[70vh]" alt="" />
       <Accordion />
     </div>
   );
