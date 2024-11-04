@@ -97,12 +97,12 @@ const OrderForm = () => {
             </div>
           </div>
         </div>
-
         <p className="text-center font-light py-4">
           Buy your car outright with a <span className="font-bold"> Cash </span>
           purchase
         </p>
 
+        {/* Vehicle Information */}
         <div>
           <p className="font-bold py-8">Vehicle Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
@@ -112,28 +112,14 @@ const OrderForm = () => {
                 for="countries"
                 class="block mb-2 text-sm font-medium text-gray-900"
               >
-                Vehicle
+                Vehicle Brand
               </label>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              >
-                <option>Camry 2025</option>
-                <option>Coaster 2024</option>
-                <option>Corolla 2024</option>
-                <option>Corolla Cross 2024</option>
-                <option>Crown 2024</option>
-                <option>Fortuner 2024</option>
-                <option>GR86 2024</option>
-
-                <option>Hiacebus 2025</option>
-                <option>Hiacevan 2025</option>
-                <option>Highlander 2024</option>
-                <option>HiluxDC 2024</option>
-                <option>HiluxSC 2025</option>
-                <option>Innova 2024</option>
-                <option>LC300 2024</option>
-              </select>
+              <input
+                type="text"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Toyota"
+                required
+              />
             </div>
 
             <div>
@@ -144,17 +130,16 @@ const OrderForm = () => {
               >
                 Grade
               </label>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              >
-                <option>GLE HEV</option>
-                <option>LIMITED HEV 4x4</option>
-              </select>
+              <input
+                type="text"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Hybrid 2024"
+                required
+              />
             </div>
           </div>
         </div>
-
+        {/* Contact Information */}
         <div>
           <p className="font-bold py-8">Contact Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
@@ -227,7 +212,6 @@ const OrderForm = () => {
             </div>
           </div>
         </div>
-
         {/* Terms and Condition */}
         <div class="flex items-start py-5">
           <div class="flex items-center h-5">
@@ -246,7 +230,6 @@ const OrderForm = () => {
             </a>
           </label>
         </div>
-
         <div className="border rounded-lg">
           <div className="p-4">
             <button
@@ -287,7 +270,7 @@ const OrderForm = () => {
             )}
           </div>
         </div>
-
+        {/* Socials */}
         <div className="py-12 rounded-lg">
           <div className="p-4 border-t">
             <p className="text-gray-800 mb-4">
@@ -374,7 +357,6 @@ const OrderForm = () => {
             </p>
           </div>
         </div>
-
         <div className="mb-6 flex items-center justify-center">
           {/* Note: Replace with actual reCAPTCHA implementation */}
           <div className="border rounded p-4 w-fit bg-gray-50">
@@ -385,14 +367,12 @@ const OrderForm = () => {
             </div>
           </div>
         </div>
-
         <button
           type="submit"
           className="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-colors"
         >
           SUBMIT
         </button>
-
         <div className="mt-6 space-y-2 text-sm text-gray-600">
           <p>
             *1 Denotes a mandatory field. Not filling in the required field will

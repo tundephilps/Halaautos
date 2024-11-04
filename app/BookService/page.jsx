@@ -129,7 +129,7 @@ const BookService = () => {
             </div>
           </div>
         </div>
-
+        {/* Vehicle Information */}
         <div>
           <p className="font-bold py-8">Vehicle Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
@@ -145,12 +145,6 @@ const BookService = () => {
                 id="countries"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
-                <option>2000</option>
-                <option>2001</option>
-                <option>2002</option>
-                <option>2003</option>
-                <option>2004</option>
-                <option>2005</option>
                 <option>2006</option>
                 <option>2007</option>
                 <option>2008</option>
@@ -159,6 +153,18 @@ const BookService = () => {
                 <option>2011</option>
                 <option>2012</option>
                 <option>2013</option>
+                <option>2014</option>
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
               </select>
             </div>
 
@@ -170,17 +176,15 @@ const BookService = () => {
               >
                 Model
               </label>
-              <select
-                id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              >
-                <option>GLE HEV</option>
-                <option>LIMITED HEV 4x4</option>
-              </select>
+              <input
+                type="text"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Hybrid"
+                required
+              />
             </div>
           </div>
         </div>
-
         <div>
           <p className="font-bold py-8">
             Choose a city and center for your service
@@ -194,7 +198,13 @@ const BookService = () => {
               >
                 City
               </label>
-              <select
+              <input
+                type="text"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="City"
+                required
+              />
+              {/* <select
                 id="countries"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
@@ -212,7 +222,7 @@ const BookService = () => {
                 <option>Al khubar</option>
                 <option>Al Wajh</option>
                 <option>Baha</option>
-              </select>
+              </select> */}
             </div>
 
             <div>
@@ -223,17 +233,22 @@ const BookService = () => {
               >
                 Center
               </label>
-              <select
+              <input
+                type="text"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Center"
+                required
+              />
+              {/* <select
                 id="countries"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
                 <option>GLE HEV</option>
                 <option>LIMITED HEV 4x4</option>
-              </select>
+              </select> */}
             </div>
           </div>
         </div>
-
         <div>
           <p className="font-bold py-8">Appointment Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
@@ -266,7 +281,6 @@ const BookService = () => {
             </div>
           </div>
         </div>
-
         {/* Terms and Condition */}
         <div class="flex items-start py-5">
           <div class="flex items-center h-5">
@@ -285,7 +299,6 @@ const BookService = () => {
             </a>
           </label>
         </div>
-
         <div className="border rounded-lg">
           <div className="p-4">
             <button
@@ -326,7 +339,6 @@ const BookService = () => {
             )}
           </div>
         </div>
-
         <div className="py-12 rounded-lg">
           <div className="p-4 border-t">
             <p className="text-gray-800 mb-4">
@@ -413,7 +425,6 @@ const BookService = () => {
             </p>
           </div>
         </div>
-
         <div className="mb-6 flex items-center justify-center">
           {/* Note: Replace with actual reCAPTCHA implementation */}
           <div className="border rounded p-4 w-fit bg-gray-50">
@@ -424,14 +435,12 @@ const BookService = () => {
             </div>
           </div>
         </div>
-
         <button
           type="submit"
           className="w-full bg-red-600 text-white py-3 rounded-md hover:bg-red-700 transition-colors"
         >
           SUBMIT
         </button>
-
         <div className="mt-6 space-y-2 text-sm text-gray-600">
           <p>
             *1 Denotes a mandatory field. Not filling in the required field will

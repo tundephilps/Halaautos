@@ -6,7 +6,7 @@ import Gallery3 from "../../public/Gallery3.png";
 import Admin from "../../public/Admin.png";
 import Link from "next/link";
 
-const page = () => {
+const News = () => {
   return (
     <section>
       {/* Container */}
@@ -136,4 +136,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default News;
