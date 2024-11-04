@@ -3,20 +3,19 @@ import React from "react";
 import Image from "next/image";
 
 import Pass1 from "../../public/pass1.png";
-
 import Pass2 from "../../public/pass2.png";
 import Pass3 from "../../public/pass3.jpeg";
 import Pass4 from "../../public/pass4.png";
 
 import Pass5 from "../../public/pass6.jpeg";
 import Pass6 from "../../public/pass6.png";
-import Suv1 from "../../public/Suv1.jpg";
-import Suv2 from "../../public/Suv2.png";
-import Suv3 from "../../public/Suv3.png";
-import Suv4 from "../../public/Suv4.jpeg";
-import Suv5 from "../../public/Suv5.webp";
-import Suv6 from "../../public/Suv6.png";
-import Suv7 from "../../public/Suv7.png";
+import Suv1 from "../../public/suv1.jpg";
+import Suv2 from "../../public/suv2.png";
+import Suv3 from "../../public/suv3.png";
+import Suv4 from "../../public/suv4.jpeg";
+import Suv5 from "../../public/suv5.webp";
+import Suv6 from "../../public/suv6.png";
+import Suv7 from "../../public/suv7.png";
 
 import comm1 from "../../public/comm1.png";
 import comm2 from "../../public/comm2.png.webp";
