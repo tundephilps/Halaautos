@@ -106,12 +106,12 @@ const Header = () => {
             >
               News
             </Link>
-            <a
-              href="#"
+            <Link
+              href="/AboutUs"
               className="font-inter rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-gray-800"
             >
               About
-            </a>
+            </Link>
           </div>
 
           <button
