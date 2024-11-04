@@ -12,22 +12,22 @@ import Image from "next/image";
 const What = () => {
   const services = [
     {
-      icon: <Image src={What1} />,
+      icon: <Image src={What1} alt="" />,
       title: "BOOK A SERVICE",
       link: "#",
     },
     {
-      icon: <Image src={What2} />,
+      icon: <Image src={What2} alt="" />,
       title: "BOOK A TEST DRIVE",
       link: "#",
     },
     {
-      icon: <Image src={What3} />,
+      icon: <Image src={What3} alt="" />,
       title: "FIND A CENTER",
       link: "#",
     },
     {
-      icon: <Image src={What4} />,
+      icon: <Image src={What4} alt="" />,
       title: "OFFERS",
       link: "#",
     },

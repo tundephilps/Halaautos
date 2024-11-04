@@ -69,7 +69,7 @@ const OrderForm = () => {
           <div className="group flex flex-col items-center p-6 bg-white rounded-lg shadow-sm hover:shadow-2xl shadow-black transition-shadow duration-300">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-red-50 group-hover:bg-red-100 transition-colors duration-300">
               <div className="text-red-600">
-                <Image src={Cash} />
+                <Image src={Cash} alt="" />
               </div>
             </div>
             <div className="inline-flex mt-4 gap-4 items-center">

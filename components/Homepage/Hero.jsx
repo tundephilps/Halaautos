@@ -54,7 +54,11 @@ const Hero = () => {
       {heroImages.map((hero, index) => (
         <SwiperSlide key={index}>
           <div className="relative w-full h-[80vh]">
-            <Image src={hero.src} className="w-full h-full object-cover" />
+            <Image
+              src={hero.src}
+              className="w-full h-full object-cover"
+              alt=""
+            />
             <div className="absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center items-center">
               <h1 className="lg:text-5xl text-3xl font-bold mb-4">
                 {hero.title}

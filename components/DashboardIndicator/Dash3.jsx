@@ -12,27 +12,27 @@ const Dash3 = () => {
   const indicators = [
     {
       id: "cruise",
-      icon: <Image src={Indicator11} className="h-20 w-20" />,
+      icon: <Image src={Indicator11} className="h-20 w-20" alt="" />,
       title: "TRAC OFF INdicator",
       description:
         "If the vehicle gets stuck in fresh snow or mud, TRAC and VSC may reduce power from the engine to the wheels. You may need to turn the system off to enable you to rock the vehicle in order to free it.",
     },
     {
       id: "steering",
-      icon: <Image src={Indicator12} className="h-20 w-20" />,
+      icon: <Image src={Indicator12} className="h-20 w-20" alt="" />,
       title: "Turn Signal Indicator",
       description:
         "Indicates that the right or left turn signal has been activated.",
     },
     {
       id: "headlight",
-      icon: <Image src={Indicator13} className="h-20 w-20" />,
+      icon: <Image src={Indicator13} className="h-20 w-20" alt="" />,
       title: "ABS Warning Light",
       description: "Indicates a malfunction in ABS or Brake Assit system",
     },
     {
       id: "oil",
-      icon: <Image src={Indicator14} className="h-20 w-20" />,
+      icon: <Image src={Indicator14} className="h-20 w-20" alt="" />,
       title: "Chargin System Warning Light",
       description: "Indicates a malfunction in the vehicle charging system",
     },

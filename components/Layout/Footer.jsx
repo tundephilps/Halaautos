@@ -18,7 +18,7 @@ const Footer = () => {
           {/* LOGO DIV */}
           <div>
             {/* LOGO */}
-            <Image src={Logo} className="w-44" />
+            <Image src={Logo} className="w-44" alt="" />
 
             <p className="font-inter mt-4 max-w-80 text-base font-light text-gray-100">
               Your best chice for car dealership...

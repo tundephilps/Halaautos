@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4 py-16">
         {/* Image Section */}
         <div className="flex justify-center mb-12">
-          <Image src={Gallery3} className="w-full h-[50vh]" />
+          <Image src={Gallery3} className="w-full h-[50vh]" alt="" />
         </div>
 
         {/* Content Section */}

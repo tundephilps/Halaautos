@@ -14,33 +14,33 @@ const Dash2 = () => {
   const indicators = [
     {
       id: "cruise",
-      icon: <Image src={Indicator6} className="h-20 w-20" />,
+      icon: <Image src={Indicator6} className="h-20 w-20" alt="" />,
       title: "Low Washer fluid Warning Light",
       description: "Indicates a low level of washer fluid.",
     },
     {
       id: "steering",
-      icon: <Image src={Indicator7} className="h-20 w-20" />,
+      icon: <Image src={Indicator7} className="h-20 w-20" alt="" />,
       title: "Slip Indicator",
       description:
         "If the vehicle is in danger of slipping or if any of the drive wheels spins, the slip indicator light flashes to indicate that the VSC/TRAC system are operating. Depending on the vehicle, abuzzer intermittent may sound to indicate that VSC is operating",
     },
     {
       id: "headlight",
-      icon: <Image src={Indicator8} className="h-20 w-20" />,
+      icon: <Image src={Indicator8} className="h-20 w-20" alt="" />,
       title: "SRS Arbag On-Off Indicator",
       description:
         "Your vehicle is equipped with a front passenger occupant classification system.",
     },
     {
       id: "oil",
-      icon: <Image src={Indicator9} className="h-20 w-20" />,
+      icon: <Image src={Indicator9} className="h-20 w-20" alt="" />,
       title: "SRS Warning Light",
       description: "Indicates that the engine oil pressure is too low.",
     },
     {
       id: "fuel",
-      icon: <Image src={Indicator10} className="h-20 w-20" />,
+      icon: <Image src={Indicator10} className="h-20 w-20" alt="" />,
       title: "Tire Pressure Warning Light",
       description: "Indicates that the fuel level is low.",
     },

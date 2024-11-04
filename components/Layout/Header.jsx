@@ -18,7 +18,7 @@ const Header = () => {
       <nav className="font-inter mx-auto h-auto w-full max-w-screen-2xl lg:relative lg:top-0 text-sm font-semibold">
         <div className="flex flex-col px-6 py-4 lg:flex-row lg:items-center lg:justify-between lg:px-10 lg:py-2 xl:px-20">
           <Link href="/">
-            <Image src={Logo} className="h-12 w-44" />
+            <Image src={Logo} className="h-12 w-44" alt="" />
           </Link>
           <div
             className={`mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0 ${

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import SwiperPass from "../../components/Homepage/SwiperPass";
 
 import SwiperCom from "../../components/Homepage/SwiperCom";
