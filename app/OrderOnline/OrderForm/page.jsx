@@ -64,7 +64,7 @@ const OrderForm = () => {
       <p className="py-6 text-center font-semibold italic">
         Please tell us how would you like to finance this purchase
       </p>
-      <form class="px-12 w-full">
+      <form className="px-12 w-full">
         <div className="flex items-center justify-center gap-8 mx-auto">
           <div className="group flex flex-col items-center p-6 bg-white rounded-lg shadow-sm hover:shadow-2xl shadow-black transition-shadow duration-300">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-red-50 group-hover:bg-red-100 transition-colors duration-300">
@@ -110,13 +110,13 @@ const OrderForm = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Vehicle Brand
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Toyota"
                 required
               />
@@ -126,13 +126,13 @@ const OrderForm = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Grade
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Hybrid 2024"
                 required
               />
@@ -144,69 +144,69 @@ const OrderForm = () => {
         <div>
           <p className="font-bold py-8">Contact Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 First Name
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="John Doe"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Last Name
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Tim"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Email
               </label>
               <input
                 type="email"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="John@gmail.com"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Phone No
               </label>
               <input
                 type="number"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="05xxxxxxx"
                 required
               />
             </div>
-            <div class="">
-              <label class="block mb-2 text-sm font-medium text-gray-900 ">
+            <div className="">
+              <label className="block mb-2 text-sm font-medium text-gray-900 ">
                 Tell us your closet city
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="City Name"
                 required
               />
@@ -224,19 +224,22 @@ const OrderForm = () => {
           />
         </div>
         {/* Terms and Condition */}
-        <div class="flex items-start py-5">
-          <div class="flex items-center h-5">
+        <div className="flex items-start py-5">
+          <div className="flex items-center h-5">
             <input
               id="terms"
               type="checkbox"
               value=""
-              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+              className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
               required
             />
           </div>
-          <label for="terms" class="ms-2 text-sm font-medium text-gray-900 ">
+          <label
+            for="terms"
+            className="ms-2 text-sm font-medium text-gray-900 "
+          >
             I agree with the{" "}
-            <a href="#" class="text-blue-600 hover:underline ">
+            <a href="#" className="text-blue-600 hover:underline ">
               terms and conditions
             </a>
           </label>

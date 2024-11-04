@@ -17,30 +17,30 @@ const Gallery = () => {
         The latest from the CEO of Haal Autos....
       </p>
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
-        <div class="relative group cursor-pointer overflow-hidden">
+        <div className="relative group cursor-pointer overflow-hidden">
           <Image
             src={Gallery1}
             alt=""
             className="w-full h-full transform transition-transform duration-500 group-hover:scale-110"
           />
-          <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 h-full">
-            <div class="flex top-0 justify-between lg:pt-40 pt-20 w-full">
-              <div class="font-normal">
-                <p class="text-sm font-extrabold">Hybrid Technology</p>
-                <p class="text-xs italic">
+          <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 h-full">
+            <div className="flex top-0 justify-between lg:pt-40 pt-20 w-full">
+              <div className="font-normal">
+                <p className="text-sm font-extrabold">Hybrid Technology</p>
+                <p className="text-xs italic">
                   Toyota engages in research & development for a wide range of
                   eco-cars. By making ever better eco-cars, Toyota aims to
                   promote the widespread use and thereby enhance contribution to
                   the environment.
                 </p>
               </div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <FaBookBookmark />
               </div>
             </div>
           </div>
         </div>
-        <div class="relative group cursor-pointer overflow-hidden">
+        <div className="relative group cursor-pointer overflow-hidden">
           <Image
             src={Gallery2}
             alt=""
@@ -48,18 +48,18 @@ const Gallery = () => {
             height={1000}
             className="w-full lg:h-full h-[280px]  transform transition-transform duration-500 group-hover:scale-110"
           />
-          <div class="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 h-full">
-            <div class="flex top-0 justify-between lg:pt-40 pt-20 w-full">
-              <div class="font-normal">
-                <p class="text-sm font-extrabold">Hybrid Technology</p>
-                <p class="text-xs italic">
+          <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40 h-full">
+            <div className="flex top-0 justify-between lg:pt-40 pt-20 w-full">
+              <div className="font-normal">
+                <p className="text-sm font-extrabold">Hybrid Technology</p>
+                <p className="text-xs italic">
                   Toyota engages in research & development for a wide range of
                   eco-cars. By making ever better eco-cars, Toyota aims to
                   promote the widespread use and thereby enhance contribution to
                   the environment.
                 </p>
               </div>
-              <div class="flex items-center">
+              <div className="flex items-center">
                 <FaBookBookmark />
               </div>
             </div>
@@ -90,7 +90,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <button class="flex justify-center items-center mx-auto mt-6 gap-2 w-44 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#fb7185] via-[#e11d48] to-red-700 hover:shadow-xl hover:shadow-red-500 hover:scale-105 duration-300 hover:from-[#be123c] hover:to-[#fb7185]">
+      <button className="flex justify-center items-center mx-auto mt-6 gap-2 w-44 h-12 cursor-pointer rounded-md shadow-2xl text-white font-semibold bg-gradient-to-r from-[#fb7185] via-[#e11d48] to-red-700 hover:shadow-xl hover:shadow-red-500 hover:scale-105 duration-300 hover:from-[#be123c] hover:to-[#fb7185]">
         <p>MORE ARTICLES</p>
       </button>
     </section>

@@ -23,43 +23,43 @@ const SwiperCom = () => {
       title: "HILUX SINGLE CAB 2025",
       img: comm1,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "HILUX DOUBLE CAB 2024",
       img: comm2,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "LAND CRUISER PICKUP 2024",
       img: comm3,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "LITEACE VAN 2024",
       img: comm4,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "COASTER 2024",
       img: comm5,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "HIACE BUS 2025",
       img: comm6,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "HIACE VAN 2025",
       img: comm7,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
   ];
 

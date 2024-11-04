@@ -19,37 +19,37 @@ const SwiperSuv = () => {
       title: "RAIZE 2024",
       img: suv1,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "URBAN CRUISER 2025",
       img: suv2,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "VELOZ 2024",
       img: suv3,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "COROLLA CROSS 2024",
       img: suv4,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "RAV4 2024",
       img: suv5,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "INNOVA 2024",
       img: suv6,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
   ];
   return (

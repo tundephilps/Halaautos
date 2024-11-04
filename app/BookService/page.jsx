@@ -67,62 +67,62 @@ const BookService = () => {
         </p>
       </div>
 
-      <div class="px-12 w-full">
+      <div className="px-12 w-full">
         <div>
           <p className="font-bold py-8">Contact Information</p>
           <div className="grid lg:grid-cols-2 grid-cols-1  gap-8">
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 First Name
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="John Doe"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Last Name
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Tim"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Email
               </label>
               <input
                 type="email"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="John@gmail.com"
                 required
               />
             </div>
-            <div class="">
+            <div className="">
               <label
                 for="email"
-                class="block mb-2 text-sm font-medium text-gray-900 "
+                className="block mb-2 text-sm font-medium text-gray-900 "
               >
                 Phone No
               </label>
               <input
                 type="number"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="05xxxxxxx"
                 required
               />
@@ -137,13 +137,13 @@ const BookService = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Model Year
               </label>
               <select
                 id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
                 <option>2006</option>
                 <option>2007</option>
@@ -172,13 +172,13 @@ const BookService = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Model
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Hybrid"
                 required
               />
@@ -194,19 +194,19 @@ const BookService = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 City
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="City"
                 required
               />
               {/* <select
                 id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
                 <option>Al Hafuf</option>
                 <option>Jeddah</option>
@@ -229,19 +229,19 @@ const BookService = () => {
               {" "}
               <label
                 for="countries"
-                class="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900"
               >
                 Center
               </label>
               <input
                 type="text"
-                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                 placeholder="Center"
                 required
               />
               {/* <select
                 id="countries"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
               >
                 <option>GLE HEV</option>
                 <option>LIMITED HEV 4x4</option>
@@ -284,19 +284,22 @@ const BookService = () => {
           </div>
         </div>
         {/* Terms and Condition */}
-        <div class="flex items-start py-5">
-          <div class="flex items-center h-5">
+        <div className="flex items-start py-5">
+          <div className="flex items-center h-5">
             <input
               id="terms"
               type="checkbox"
               value=""
-              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+              className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
               required
             />
           </div>
-          <label for="terms" class="ms-2 text-sm font-medium text-gray-900 ">
+          <label
+            for="terms"
+            className="ms-2 text-sm font-medium text-gray-900 "
+          >
             I agree with the{" "}
-            <a href="#" class="text-blue-600 hover:underline ">
+            <a href="#" className="text-blue-600 hover:underline ">
               terms and conditions
             </a>
           </label>

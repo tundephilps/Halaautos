@@ -21,37 +21,37 @@ const SwiperPass = () => {
       title: "YARIS 2024",
       img: Pass1,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "COROLLA 2024",
       img: Pass2,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "CAMRY 2025",
       img: Pass3,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "CROWN 2023",
       img: Pass4,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "SUPRA 2024",
       img: Pass5,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
     {
       title: "GR86 2024",
       img: Pass6,
 
-      href: "javascript:void(0)",
+      href: "#",
     },
   ];
   return (
