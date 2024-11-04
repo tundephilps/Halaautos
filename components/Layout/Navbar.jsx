@@ -64,7 +64,9 @@ const Navbar = () => {
         <div className="flex items-center lg:gap-6 gap-2 ">
           <Link href="/BookService">Book a Service</Link>
           <div className=" bg-gray-500 h-4 w-[0.2px]" />
-          <p className="">Book a Car</p>
+          <Link href="/OrderOnline/OrderForm" className="">
+            Book a Car
+          </Link>
         </div>
       </div>
     </div>

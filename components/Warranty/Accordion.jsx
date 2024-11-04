@@ -14,7 +14,7 @@ const WarrantyAccordion = () => {
           <p className="text-gray-600">
             Warranty information is provided to protect your investment with an
             outline of procedures for solving any problem you may have with your
-            new Toyota vehicle. Your Owner's Manual also contains important
+            new Toyota vehicle. Your Owners Manual also contains important
             information. Be sure to read it carefully.
           </p>
           <p className="text-gray-600">
@@ -45,8 +45,8 @@ const WarrantyAccordion = () => {
             <p className="text-gray-600">
               Toyota warrants that it will either repair or replace any part of
               the new Toyota vehicle that is defective in material or
-              workmanship under normal use except those items listed under "What
-              in Not Covered" for a period of 36 months or 100,000 kilometers,
+              workmanship under normal use except those items listed under What
+              in Not Covered for a period of 36 months or 100,000 kilometers,
               whichever comes first. Warranty Coverage is fully transferable to
               subsequent vehicle owner.
             </p>
@@ -60,7 +60,7 @@ const WarrantyAccordion = () => {
         <div className="space-y-4">
           <div>
             <h3 className="font-semibold">
-              Factors beyond the Manufacturer's Control:
+              Factors beyond the Manufacturers Control:
             </h3>
             <ul className="list-disc ml-6 text-gray-600 space-y-2 mt-2">
               <li>
@@ -131,7 +131,7 @@ const WarrantyAccordion = () => {
             First 1,000 km Maintenance Service You are entitled to Free 1,000 km
             Maintenance Service upon presentation of this Warranty Booklet to
             your Toyota dealer. This maintenance service shall be performed in
-            accordance with your Owner's Manual at no charge except for any
+            accordance with your Owners Manual at no charge except for any
             lubricants, fluids or filters used since they are regular
             maintenance service items.
           </p>
@@ -141,7 +141,7 @@ const WarrantyAccordion = () => {
             Toyota vehicle. To maintain your Toyota vehicle in top driving
             condition, it is vitally important to have it inspected and serviced
             periodically in accordance with the maintenance services listed in
-            your Owner's Manual.
+            your Owners Manual.
           </p>
         </div>
       ),
@@ -162,12 +162,12 @@ const WarrantyAccordion = () => {
             <p className="text-gray-600">
               You are responsible for properly operating, maintaining, and
               caring for your Toyota vehicle in accordance with the instructions
-              contained in your Owner's Manual.
+              contained in your Owners Manual.
             </p>
             <p className="text-gray-600">
               If your vehicle is subject to use under severe driving conditions,
               you should follow the maintenance requirements specified
-              accordingly in your Owner's Manual.
+              accordingly in your Owners Manual.
             </p>
           </div>
           <div className="mt-4">
@@ -240,7 +240,7 @@ const WarrantyAccordion = () => {
   ];
 
   return (
-    <div className="max-w-3xl mx-auto p-4 space-y-2">
+    <div className="lg:p-12  mx-auto p-4 space-y-2">
       {accordionData.map((section, index) => (
         <div key={index} className="border border-gray-200 rounded-lg">
           <button

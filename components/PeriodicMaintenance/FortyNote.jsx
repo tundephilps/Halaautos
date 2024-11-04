@@ -117,7 +117,7 @@ const FortyNote = () => {
         </div>
         <p className="text-sm text-red-700">
           Periodic maintenance schedule below is to illustrate the common points
-          in a required maintenance. Please refer to your owner's Manual/
+          in a required maintenance. Please refer to your owners Manual/
           Warranty booklet for specific / exact periodic maintenance
           information.
         </p>

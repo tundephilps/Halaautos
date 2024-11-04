@@ -100,7 +100,7 @@ const OneNote = () => {
         <h2 className="text-lg font-bold text-red-600 mb-2">Important Note</h2>
         <p className="text-sm text-gray-600 border rounded-lg p-4">
           Periodic maintenance schedule below is to illustrate the common points
-          in a required maintenance. Please refer to your owner's Manual/
+          in a required maintenance. Please refer to your owners Manual/
           Warranty booklet for specific / exact periodic maintenance
           information.
         </p>

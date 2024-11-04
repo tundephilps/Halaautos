@@ -25,12 +25,12 @@ const Header = () => {
               isOpen ? "" : "hidden"
             }`}
           >
-            <a
-              href="#"
+            <Link
+              href="/ToyotaLexus"
               className="font-inter rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-gray-800"
             >
               Toyota & Lexus
-            </a>
+            </Link>
             <div className="relative flex flex-col">
               <button
                 onClick={() => setMenuOne(!menuOne)}
@@ -100,12 +100,12 @@ const Header = () => {
                 </div>
               )}
             </div>
-            <a
-              href="#"
+            <Link
+              href="/News"
               className="font-inter rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-gray-800"
             >
               News
-            </a>
+            </Link>
             <a
               href="#"
               className="font-inter rounded-lg lg:px-6 lg:py-4 lg: lg:hover:text-gray-800"
