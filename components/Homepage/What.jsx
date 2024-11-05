@@ -1,11 +1,8 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa6";
 import What1 from "../../public/What1.png";
-
 import What2 from "../../public/What2.png";
-
 import What3 from "../../public/What3.png";
-
 import What4 from "../../public/What4.png";
 import Image from "next/image";
 

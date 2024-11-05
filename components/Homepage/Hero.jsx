@@ -70,14 +70,6 @@ const Hero = () => {
               </button>
             </div>
           </div>
-
-          {/* <div className=" absolute top-[55%] left-4 text-white">
-            <FaAngleLeft className=" text-white w-12 h-12" />
-          </div>
-          <div className=" absolute top-[55%] right-4 text-white">
-            <FaAngleRight className="w-12 h-12 text-white" />
-          </div>
-          <div className="swiper-pagination"></div> */}
         </SwiperSlide>
       ))}
     </Swiper>
