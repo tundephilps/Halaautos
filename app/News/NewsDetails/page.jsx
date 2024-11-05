@@ -6,14 +6,6 @@ import Gallery1 from "../../../public/Gallery1.jpeg";
 function NewsDetails() {
   return (
     <>
-      <Head>
-        <title>Responsive web design best practices</title>
-        <meta
-          name="description"
-          content="Learn the best practices for creating responsive web designs that provide a seamless user experience across all devices."
-        />
-      </Head>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
         {/* Date */}
         <div className="text-center text-gray-500 text-sm mb-4">01.01.24</div>

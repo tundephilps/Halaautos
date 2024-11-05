@@ -7,7 +7,7 @@ import Explore from "../../components/Homepage/Explore";
 import Commitment from "../../components/Homepage/Commitment";
 import Gallery from "../../components/Homepage/Gallery";
 
-const page = () => {
+const Homepage = () => {
   return (
     <div>
       <Hero />
@@ -19,4 +19,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Homepage;
